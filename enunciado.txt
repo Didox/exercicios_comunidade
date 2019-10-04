@@ -1,0 +1,18 @@
+Danilo um profissional de tecnologia gostaria de ganhar escala contratando os serviços dos seus alunos
+
+para isso danilo precisa de um sistema onde ele possa cadastrar  os candidatos na memória do computador com os campos
+
+nome
+telefone
+valor_hora
+
+mostrar a lista de candidatos no final do programa
+
+
+Depois de cadastrado os profissionais criar uma tela onde o danilo, selecionará um profissional e vai falar a quantidade de horas de trabalho que cada profissional vai trabalhar.
+
+mostrar no final do programa o valor a pagar para cada profissional
+
+
+array 
+looping

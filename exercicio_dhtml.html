@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercicio DHTML</title>
+  <script type="text/javascript">
+    function cadastraDados(event){
+      event.preventDefault();
+      
+      alunos = [];  
+      for(i=0;i<1;i++){    
+        aluno = {}
+        aluno.nome = document.getElementById("nome").value;   
+        aluno.telefone = document.getElementById("telefone").value;     
+        aluno.valor_hora = document.getElementById("valor_hora").value; 
+
+        alunos.push(aluno);  
+      } 
+      
+      for(i=0;i<alunos.length;i++){
+        console.log("Nome: " + alunos[i].nome); 
+        console.log("Telefone: " + alunos[i].telefone); 
+        console.log("Valor hora: " + alunos[i].valor_hora); 
+      }  
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Cadastro de profissional:</legend>
+      <div>
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome">
+      </div>
+
+      <div>
+        <label>Telefone</label>
+        <input type="text" name="telefone" id="telefone">
+      </div>
+
+      <div>
+        <label>Valor hora</label>
+        <input type="text" name="valor_hora" id="valor_hora">
+      </div>
+
+      <button onclick="cadastraDados(event)">Salvar</button>
+    </fieldset>
+  </form>
+</body>
+</html>

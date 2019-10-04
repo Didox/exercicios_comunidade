@@ -1,0 +1,17 @@
+<script>  
+  alunos = [];  
+  for(i=0;i<1;i++){    
+    aluno = {}
+    aluno.nome = prompt("Nome do Aluno: ");    
+    aluno.telefone = prompt("Telefone: ");     
+    aluno.valor_hora = prompt("Qual valor/hora: "); 
+
+    alunos.push(aluno);  
+  } 
+  
+  for(i=0;i<alunos.length;i++){
+    console.log("Nome: " + alunos[i].nome); 
+    console.log("Telefone: " + alunos[i].telefone); 
+    console.log("Valor hora: " + alunos[i].valor_hora); 
+  }  
+</script>
